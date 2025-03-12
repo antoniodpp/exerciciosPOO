@@ -47,4 +47,8 @@ public class Pilha {
             return retorno.substring(0, retorno.length() - 1) + ".";
         }
     }
+    public String getTopo() {
+        return topo.getTitulo();
+    }
+
 }
